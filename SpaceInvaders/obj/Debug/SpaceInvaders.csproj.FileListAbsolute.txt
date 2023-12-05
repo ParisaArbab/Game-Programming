@@ -1,0 +1,10 @@
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\bin\Debug\SpaceInvaders.exe.config
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\bin\Debug\AzulCoreCLRDebug.dll
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\bin\Debug\irrKlang.NET4.dll
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.AssemblyReference.cache
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CoreCompileInputs.cache
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CopyComplete
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+C:\Users\parsu\OneDrive\Desktop\New-sprint4\sprint4\SpaceInvaders\obj\Debug\SpaceInvaders.pdb

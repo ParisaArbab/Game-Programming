@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameObjectNodeMan">
+    <Position X="1" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAADAAABpAAAAIBIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectNodeMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManBase" Collapsed="true">
+    <Position X="1" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAEAAAAAEiCAgAAIgAAQCAIAgAEABAABAAAAAA=</HashCode>
+      <FileName>Manager\ManBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ListBase" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAs=</HashCode>
+      <FileName>Manager\ListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkMan">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAABgAAAAAAAAACAAAAAAAAAAs=</HashCode>
+      <FileName>Manager\DLinkMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+      <Field Name="poIterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkIterator" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAACAABQAAAAGAAAAACAABCAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Manager\DLinkIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Iterator" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAACAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAgAAAAAAAIAAAAAIQAAAAABBAAA=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NodeBase" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAABAAAAABAA=</HashCode>
+      <FileName>Manager\NodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode">
+    <Position X="7.25" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.DLink" FixedToPoint="true">
+      <Path>
+        <Point X="7.25" Y="5.191" />
+        <Point X="7.25" Y="7.125" />
+        <Point X="7.75" Y="7.125" />
+        <Point X="7.75" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAhAAAAAAAgAAAAAAAQAAAAABAAAAABAA=</HashCode>
+      <FileName>GameObject\GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.AlienBase" Collapsed="true">
+    <Position X="9.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Alien\AlienBase.cs</FileName>
+      <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNull" Collapsed="true">
+    <Position X="5.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectNull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Squid">
+    <Position X="6.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Alien\Squid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Crab">
+    <Position X="8.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Alien\Crab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Octopus">
+    <Position X="11.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Alien\Octopus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="7.25" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAABgAAEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteGameProxy" Collapsed="true">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAhAAAAAAAgAgAAAAEQAAAABBgAAAADAA=</HashCode>
+      <FileName>Sprite\SpriteGameProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
