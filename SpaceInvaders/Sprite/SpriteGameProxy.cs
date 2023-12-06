@@ -1,8 +1,4 @@
-﻿//-----------------------------------------------------------------------------
-// Copyright 2023, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace SpaceInvaders
 {
